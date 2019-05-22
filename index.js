@@ -1,7 +1,4 @@
-import WebViewQuillEditor from './WebViewQuillEditor';
-import WebViewQuillViewer from './WebViewQuillViewer';
+import { AppRegistry } from 'react-native';
+import App from './App';
 
-module.exports = {
-    WebViewQuillEditor,
-    WebViewQuillViewer
-  };
+AppRegistry.registerComponent('reactnativewebviewquilljs', () => App);
